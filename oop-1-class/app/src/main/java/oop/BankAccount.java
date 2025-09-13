@@ -1,7 +1,7 @@
 package oop;
 
 public class BankAccount {
-private double balance = 0.0;  
+    private double balance = 0.0;  
     public BankAccount(double initialBalance) {
         if (initialBalance >= 0) {
             this.balance = initialBalance;
